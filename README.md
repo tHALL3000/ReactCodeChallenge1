@@ -2,7 +2,7 @@
 <h1>The Challenge: Display Data using JSX</h1>
 
 <p>In this challenge, using given user data, I had to display it using JSX. </p>
-  </ul>The main tasks were:
+  <ul>The main tasks were:
 <li>Show data</li>
 <li>Bind data to an HTML attribute img src= </li>
 <li>Create a link to the user's Twitter profile: https://twitter.com/chrisoncode</li>
