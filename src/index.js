@@ -23,13 +23,17 @@ const user = {
  * ------------------------
  */
 function App() {
+  const url = "https://twitter.com/@${user.twitterUsername}";
   return (
     <div className="App">
       {/* Show user data here */}
       <div className="user-deets">
         '
         <img src={user.avatar} alt={user.name} />
-        <h3> {user.name} </h3>
+        <h3>
+          {" "}
+          <a href="url">{user.name} </a>
+        </h3>
         <p>
           <strong> Location </strong>
           {user.location}
@@ -48,7 +52,7 @@ function App() {
         </p>
         <p>
           <strong> Twitter</strong>
-          <a>@{user.twitterUsername}</a>
+          <a href={url}>@{user.twitterUsername}</a>
         </p>
       </div>
 
